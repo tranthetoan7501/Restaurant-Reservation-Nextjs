@@ -21,7 +21,7 @@ export default function RootLayout({
         <main className='bg-gray-100 min-h-screen w-screen'>
           <main className='max-w-screen-2xl m-auto bg-pink-400'>
             {/* NAVBAR */}
-            <NavBar />
+            {/* <NavBar /> */}
             {children}
           </main>
         </main>
