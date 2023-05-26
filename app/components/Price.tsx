@@ -31,7 +31,7 @@ const Price = ({ price }: { price: PRICE }) => {
         );
     }
   };
-  return renderPrice;
+  return renderPrice(price);
 };
 
 export default Price;
